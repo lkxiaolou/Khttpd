@@ -142,6 +142,7 @@ int get_url(char *str, char *url)
 /**
  * send a file or a result from the shell script
  * with the flag 'cgi' eq 1
+ *
  */
 int send_result(int fd, char *url, int cgi)
 {

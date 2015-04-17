@@ -1,5 +1,5 @@
 # Khttpd
-a simple http server
+a simple http server by c
 
 暂时只支持静态文件服务，将来有可能支持动态脚本，以及其他功能
 支持以daemon进程运行
