@@ -1,0 +1,3 @@
+PROJECT(Khttpd)
+FILE(GLOB SOURCE "./*.c")
+ADD_EXECUTABLE(Khttpd ${SOURCE})

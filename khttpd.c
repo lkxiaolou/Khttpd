@@ -271,7 +271,7 @@ int main(int argc, char *argv[])
 	while(1)
 	{
 		addr_len = sizeof(addr);
-		newfd = accept(fd, (struct sockaddr *)&addr,&addr_len);
+		newfd = accept(fd, (struct sockaddr *)&addr, &addr_len);
 		if(newfd == -1){
 			exit(-1);
 		}
